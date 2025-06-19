@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Shahzad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Portpholio.css">
+</head>
+<body>
+
+  <!-- Hamburger Button -->
+  <button class="hamburger-btn" onclick="toggleSidebar()">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Sidebar -->
+  <div class="sidebar-container">
+    <h3 id="themeToggle"><span class="orange" style="font-size: 2.5rem;">M</span> SHAHZAD</h3>
+    <a href="#Home" class="active"><i class="fa fa-home"></i> Home</a>
+    <a href="#about"><i class="fa fa-user"></i> About</a>
+    <a href="#services"><i class="fa fa-cog"></i> Services</a>
+    <a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a>
+    <a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div id="Home" class="main-content container">
+    <div class="row align-items-center justify-content-center">
+      <!-- Text Section -->
+      <div class="col-lg-6 col-md-6 text-md-start text-center">
+        <h2 class="mb-3">Hello, there is <span class="orange" style="font-size: 2.7rem;"><br>MUHAMMAD SHAHZAD</span></h2>
+        <div class="typing-wrapper mb-3">
+          <h1>I'm a</h1>
+          <span id="skillText"></span>
+        </div>
+        <p>
+          I'm a web Developer with extensive experience for over 02 years.<br>
+          My expertise is to create and Develop websites, graphic designs, and many more...
+        </p>
+         <div class="social-icons mb-3">
+          <a href="https://api.whatsapp.com/send?phone=923061310982" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/ANSworldnews371011?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://x.com/sj5257981jutt?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/muhammad_shahzad_371011?igsh=N2t1eXAyY3BocXI2&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-shahzad-0a83632b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          
+        </div>
+        <a href="MuhammadShahzadResume.pdf" class="btn btn-orange mt-3">Download CV</a>
+      </div>
+      <!-- Image Section -->
+      <div class="col-lg-6 col-md-6 text-center">
+        <div class="intro-image">
+          <img src="WhatsApp Image 2025-06-18 at 10.35.53 PM.jpeg" alt="Profile" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="about-section">
+      <h2>About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <div class="about-image">
+            <img src="WhatsApp Image 2025-06-18 at 10.35.53 PM.jpeg" alt="About Me" />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p>
+            Hello! I am Muhammad Shahzad, a passionate web developer with over 2 years of experience in crafting stunning websites and graphic designs. My journey in the tech world began with a deep interest in coding and design, which I honed through self-learning and hands-on projects. I specialize in HTML, CSS, JavaScript, and Bootstrap, with a keen eye for detail and creativity.
+          </p>
+          <p>
+            I hold a degree in Computer Science from Virtual University, where I developed a strong foundation in software development. Over the years, I have worked on various projects, ranging from responsive websites to custom graphic solutions, helping clients bring their visions to life. My goal is to create user-friendly and visually appealing digital experiences.
+          </p>
+          <p>
+            In my free time, I enjoy exploring new technologies, contributing to open-source projects, and staying updated with the latest trends in web development. Let's connect to discuss how I can contribute to your next big idea!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="services-section">
+      <h2>My Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h4>Web Development</h4>
+            <p>
+              I offer custom web development services using HTML, CSS, JavaScript, and Bootstrap to create responsive and dynamic websites tailored to your needs.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-paint-brush"></i>
+            <h4>Graphic Design</h4>
+            <p>
+              I provide high-quality graphic design solutions, including logos, banners, and UI designs, with a focus on creativity and modern aesthetics.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h4>Software Solutions</h4>
+            <p>
+              I develop tailored software solutions to enhance your business efficiency, including custom applications and integrations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="portfolio-section">
+      <h2>My Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="portfolio-card">
+            <i class="fas fa-oil-can"></i> <!-- Icon for Edible Oil Website -->
+            <h4>Edible Oil Website</h4>
+            <p>
+              A responsive website for an edible oil brand with a clean layout and intuitive navigation. It offers fast performance on all devices, highlighting the brand’s purity, quality, and trust. The modern design enhances user experience and effectively showcases product details.
+            </p>
+            <a href="F.END Project website/Index_(HOME).html" class="btn btn-orange">Go to Project</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="portfolio-card">
+            <i class="fas fa-paint-brush"></i> <!-- Icon for Logo Design -->
+            <h4>Logo Design</h4>
+            <p>
+              A professional logo designed for an edible oil brand, blending modern aesthetics with brand identity. It reflects purity, trust, and quality through clean shapes and colors, ensuring the design is memorable, scalable, and suitable for packaging, digital, and print platforms.
+            </p>
+            <a href="logo project/Websit logo.png" class="btn btn-orange">Go to Project</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="portfolio-card">
+            <i class="fas fa-globe"></i> <!-- Icon for Website Design -->
+            <h4>Website Design</h4>
+            <p>
+              A sleek, responsive website designed for an edible oil company, featuring user-friendly navigation and elegant visuals. It adapts seamlessly to all screen sizes, ensuring smooth browsing, fast load times, and clear product presentation that builds brand trust and enhances customer experience.
+            </p>
+            <a href="F.END Project website/Index_(HOME).html" class="btn btn-orange">Go to Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section">
+      <h2>Get in Touch</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:shahzad@example.com">sj5257981@gmail.com</a></p>
+        <p>Phone: <a href="tel:+923001234567">+92 317 6767025</a></p>
+        <div class="social-icons">
+           <a href="https://api.whatsapp.com/send?phone=923061310982" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/ANSworldnews371011?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://x.com/sj5257981jutt?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/muhammad_shahzad_371011?igsh=N2t1eXAyY3BocXI2&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-shahzad-0a83632b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-orange">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h4>Stay Connected</h4>
+    <p>© 2025 Muhammad Shahzad. All rights reserved.</p>
+    <p>Designed with passion in Pakistan | Last updated: June 19, 2025</p>
+    <div class="social-icons">
+       <a href="https://api.whatsapp.com/send?phone=923061310982" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/ANSworldnews371011?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://x.com/sj5257981jutt?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/muhammad_shahzad_371011?igsh=N2t1eXAyY3BocXI2&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-shahzad-0a83632b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function toggleSidebar() {
+      document.querySelector('.sidebar-container').classList.toggle('active');
+    }
+
+    const skillText = document.getElementById("skillText");
+    const skills = ["Graphic Designer", "Full Stack Developer", "Software Engineer"];
+    let i = 0;
+    let charIndex = 0;
+    let deleting = false;
+
+    function animateSkill() {
+      const currentSkill = skills[i];
+      if (!deleting) {
+        skillText.textContent = currentSkill.substring(0, charIndex++);
+        if (charIndex > currentSkill.length) {
+          deleting = true;
+          setTimeout(animateSkill, 1000);
+        } else {
+          setTimeout(animateSkill, 100);
+        }
+      } else {
+        skillText.textContent = currentSkill.substring(0, charIndex--);
+        if (charIndex < 0) {
+          deleting = false;
+          i = (i + 1) % skills.length;
+          setTimeout(animateSkill, 500);
+        } else {
+          setTimeout(animateSkill, 50);
+        }
+      }
+    }
+
+    // Add click event to handle active state and theme change
+    document.querySelectorAll('.sidebar-container a').forEach(item => {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        document.querySelectorAll('.sidebar-container a').forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+        if (targetId) {
+          document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Theme toggle on "M SHAHZAD" click
+    const themeToggle = document.getElementById('themeToggle');
+    const colors = [
+      '#228B22', // Forest Green
+      '#87CEEB', // Sky Blue
+      '#FF4500', // Sunset Orange
+      '#E6E6FA', // Lavender
+      '#008080', // Teal
+      '#FFD700', // Golden Yellow
+      '#FF69B4', // Rose Pink
+      '#8B4513', // Earth Brown
+      '#4682B4', // Ocean Blue
+      '#F5F5DC', // Sand Beige
+      '#8A9A5B', // Moss Green
+      '#FF4040', // Coral Red
+      '#9ACD32', // Sage Green
+      '#40E0D0', // Turquoise
+      '#FFBF00', // Amber
+      '#6B8E23', // Olive Green
+      '#0047AB', // Cobalt Blue
+      '#FFDAB9', // Peach
+      '#800000', // Maroon
+      '#98FF98', // Mint Green
+      '#4B0082', // Indigo
+      '#708090', // Slate Gray
+      '#FBCEB1', // Apricot
+      '#2E8B57', // Sea Green
+      '#C8A2C8', // Lilac
+      '#B7410E', // Rust
+      '#7FFFD4', // Aquamarine
+      '#954535', // Chestnut
+      '#FFFF99', // Pale Yellow
+      '#800080'  // Deep Purple
+    ];
+
+    themeToggle.addEventListener('click', function() {
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      const hoverColor = `rgba(${parseInt(randomColor.slice(1, 3), 16)}, ${parseInt(randomColor.slice(3, 5), 16)}, ${parseInt(randomColor.slice(5, 7), 16)}, 0.2)`;
+      
+      document.documentElement.style.setProperty('--highlight-color', randomColor);
+      document.documentElement.style.setProperty('--highlight-hover', hoverColor);
+      document.documentElement.style.setProperty('--active-bg', hoverColor);
+    });
+
+    document.addEventListener("DOMContentLoaded", animateSkill);
+  </script>
+
+</body>
+</html>
